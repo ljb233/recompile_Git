@@ -13,6 +13,6 @@ vi debian/control
 sudo dpkg-buildpackage -rfakeroot -b
 如果fail on test，可以将文件debian/rules中的TEST=test注释掉
 最后sudo dpkg -i ../git_2.20.1-2_amd64.deb安装git即可。
-# 如果是amd64也可以使用现成的deb
+# 如果是amd64也可以使用现成我重编译好的deb
 
  
